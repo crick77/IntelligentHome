@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IntelligentHome-Planner
+Bundle-SymbolicName: IntelligentHome-Planner
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: it.univaq.se4as.project.ih.planner.PlannerActivator
+Bundle-Vendor: SE4AS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: IntelligentHome-Planner
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: IntelligentHome-0API;bundle-version="1.0.0",
+ IntelligentHome-0DB;bundle-version="1.0.0",
+ IntelligentHome-0Libs;bundle-version="1.0.0",
+ IntelligentHome-Knowledge;bundle-version="1.0.0"
+Export-Package: it.univaq.se4as.project.ih.planner,
+ it.univaq.se4as.project.ih.planner.mqtt
