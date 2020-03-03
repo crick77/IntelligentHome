@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+	<meta name="theme-color" content="#563d7c">
+    <title>IntelligentHome - Grafici</title>
+	<link href="chart_css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+	<link href="chart_css/select2.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="chart_css/template.css" rel="stylesheet" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	  <span class="navbar-brand">IntelligentHome - Grafici</span>	  
+	</nav>	
+	<div class="container">
+	  <div class="row">
+		<form class="form-inline expand">
+		  <select class="js-example-basic-multiple form-control expand60" id="deviceList" multiple="multiple">	
+		  </select>
+		  &nbsp;&nbsp;&nbsp;Periodo:&nbsp; 
+		  <select class="form-control expand33" id="days">
+		  	<option value="1">Ultimo giorno</option>
+		  	<option value="2">Ultimi 2 giorni</option>
+		  	<option value="5">Ultimi 5 giorni</option>
+		  	<option value="7">Ultima settimana</option>
+		  	<option value="15">Ultimi 15 giorni</option>
+		  	<option value="30">Ultimo mese</option>
+		  </select>
+		  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+		  <button type="button" class="form-control btn btn-primary expand" onclick="updateCharts()">Aggiorna Grafico</button>			
+		</form>
+	  </div>
+	  <div class="row">&nbsp;</div>
+	  <div class="row">
+		<canvas id="myChart"></canvas>
+	  </div>
+	</div>
+	<script src="chart_js/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+	<script src="chart_js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	<script src="chart_js/select2.min.js" crossorigin="anonymous"></script>
+	<script src="chart_js/moment.min.js" crossorigin="anonymous"></script>
+	<script src="chart_js/Chart.min.js" crossorigin="anonymous"></script>
+	<script src="chart_js/mychart.js" crossorigin="anonymous"></script>
+  </body>
+</html>

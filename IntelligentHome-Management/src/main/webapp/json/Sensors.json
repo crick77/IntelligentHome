@@ -1,0 +1,11 @@
+[
+  {
+    "Sensor": "Temperature"
+  },
+  {
+    "Sensor": "Gas"
+  },
+  {
+    "Sensor": "Light"
+  }
+]

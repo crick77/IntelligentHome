@@ -1,0 +1,11 @@
+[
+  {
+    "Actuator": "Temperature"
+  },
+  {
+    "Actuator": "Gas"
+  },
+  {
+    "Actuator": "Light"
+  }
+]

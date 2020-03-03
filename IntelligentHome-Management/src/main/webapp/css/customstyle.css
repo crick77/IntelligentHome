@@ -1,0 +1,24 @@
+.Actions {
+    position: relative;
+    /* top: 8%; */
+    /* left: 21%; */
+    margin-bottom: 20px;
+}
+
+.Actions .checkbox-choice-label {
+    vertical-align: sub;
+}
+
+.update-btn {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.view-btn {
+    color: #3a9b4d;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: transparent;
+}
