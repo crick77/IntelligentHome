@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IntelligentHome-Executor
+Bundle-SymbolicName: IntelligentHome-Executor
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: SE4AS
+Automatic-Module-Name: IntelligentHome-Executor
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.osgi;bundle-version="3.15.0",
+ IntelligentHome-0API;bundle-version="1.0.0",
+ IntelligentHome-0DB;bundle-version="1.0.0",
+ IntelligentHome-0Libs;bundle-version="1.0.0",
+ IntelligentHome-Knowledge;bundle-version="1.0.0"
+Export-Package: it.univaq.se4as.project.ih.executor,
+ it.univaq.se4as.project.ih.executor.mqtt
+Bundle-Activator: it.univaq.se4as.project.ih.executor.ExecutorActivator
