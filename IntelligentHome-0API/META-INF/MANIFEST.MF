@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IntelligentHome-API
+Bundle-SymbolicName: IntelligentHome-0API
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: SE4AS
+Automatic-Module-Name: IntelligentHome-API
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: it.univaq.se4as.project.ih.api,
+ it.univaq.se4as.project.ih.api.data,
+ it.univaq.se4as.project.ih.api.mqtt
+Import-Package: org.osgi.framework
+Require-Bundle: IntelligentHome-0DB;bundle-version="1.0.0"
